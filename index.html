@@ -30,11 +30,6 @@
               clifford: "#da373d",
               "hockey-primary": "#FF4240",
             },
-            backgroundImage: {
-              junior: "url('/images/2.png')",
-              teenager: "url('/images/3.png')",
-              professional: "url('/images/4.png')",
-            },
           },
         },
       };
@@ -42,6 +37,15 @@
     <style>
       .font-manrope {
         font-family: "Manrope", sans-serif;
+      }
+      .junior {
+        background-image: url("Images/2.png");
+      }
+      .teenager {
+        background-image: url("Images/3.png");
+      }
+      .professional {
+        background-image: url("Images/4.png");
       }
     </style>
   </head>
@@ -289,9 +293,9 @@
           Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
           placerat <br />dolor. Purus urna in sit nullam proin.
         </p>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12">
           <div
-            class="bg-junior bg-no-repeat bg-cover bg-center bg-black/50 bg-blend-overlay py-16 px-10 rounded-2xl"
+            class="junior bg-no-repeat bg-cover bg-center bg-black/50 bg-blend-overlay py-16 px-10 rounded-2xl"
           >
             <h4 class="text-white text-2xl font-extrabold">Junior Program</h4>
             <p class="font-medium text-white mt-4 mb-6">
@@ -306,7 +310,7 @@
             </button>
           </div>
           <div
-            class="bg-teenager bg-no-repeat bg-cover bg-center bg-black/50 bg-blend-overlay py-16 px-10 rounded-2xl"
+            class="teenager bg-no-repeat bg-cover bg-center bg-black/50 bg-blend-overlay py-16 px-10 rounded-2xl"
           >
             <h4 class="text-white text-2xl font-extrabold">Junior Program</h4>
             <p class="font-medium text-white mt-4 mb-6">
@@ -321,7 +325,7 @@
             </button>
           </div>
           <div
-            class="bg-professional lg:col-span-2 bg-no-repeat bg-cover bg-center bg-black/50 bg-blend-overlay pb-10 pl-10 pt-52 rounded-2xl"
+            class="professional lg:col-span-2 bg-no-repeat bg-cover bg-center bg-black/50 bg-blend-overlay pb-10 pl-10 pt-52 rounded-2xl"
           >
             <h4 class="text-white text-2xl font-extrabold">Junior Program</h4>
             <p class="font-medium text-white mt-4 mb-6">
